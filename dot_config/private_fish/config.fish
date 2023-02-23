@@ -4,6 +4,12 @@ end
 
 set fish_greeting
 
+# Define aliases for exa
+alias l="exa --classify --icons"
+alias la="exa --classify --icons --all"
+alias ll="exa --header --long --group --classify --icons"
+alias lla="exa --header --long --group --classify --icons --all"
+
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Initialize starship prompt
