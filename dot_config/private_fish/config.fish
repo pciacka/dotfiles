@@ -4,6 +4,9 @@ end
 
 set fish_greeting
 
+# Set ls colors
+set -gx LSCOLORS gxfxbEaEBxxEhEhBaDaCaD
+
 # Define aliases for exa
 alias l="exa --classify --icons"
 alias la="exa --classify --icons --all"
